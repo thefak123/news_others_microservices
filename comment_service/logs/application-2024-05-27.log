@@ -1,0 +1,81 @@
+2024-05-27 14:17:41 INFO  c.e.c.CommentServiceApplication - Starting CommentServiceApplication using Java 21.0.2 with PID 44780 (C:\Users\boby\Documents\All materials\java\spring\project_kuliah\comment_service\target\classes started by boby in C:\Users\boby\Documents\All materials\java\spring\project_kuliah\comment_service)
+2024-05-27 14:17:41 INFO  c.e.c.CommentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 14:17:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27 14:17:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-05-27 14:17:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2024-05-27 14:17:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2024-05-27 14:17:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-27 14:17:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-27 14:17:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-27 14:17:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1727 ms
+2024-05-27 14:17:43 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27 14:17:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-27 14:17:43 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-27 14:17:44 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27 14:17:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-27 14:17:44 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@350f18a6
+2024-05-27 14:17:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-27 14:17:45 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27 14:17:45 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27 14:17:46 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27 14:17:46 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2024-05-27 14:17:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2024-05-27 14:17:46 INFO  c.e.c.CommentServiceApplication - Started CommentServiceApplication in 5.608 seconds (process running for 6.212)
+2024-05-27 14:19:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27 14:19:53 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-27 14:19:53 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-27 19:46:57 INFO  c.e.c.CommentServiceApplication - Starting CommentServiceApplication using Java 21.0.2 with PID 28536 (C:\Users\boby\Documents\All materials\java\spring\project_kuliah\comment_service\target\classes started by boby in C:\Users\boby\Documents\All materials\java\spring\project_kuliah\comment_service)
+2024-05-27 19:46:57 INFO  c.e.c.CommentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 19:46:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27 19:46:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2024-05-27 19:46:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2024-05-27 19:46:59 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2024-05-27 19:46:59 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-27 19:46:59 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-27 19:46:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-27 19:46:59 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1252 ms
+2024-05-27 19:46:59 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27 19:46:59 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-27 19:46:59 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-27 19:46:59 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27 19:46:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-27 19:46:59 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@714f1a44
+2024-05-27 19:46:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-27 19:47:01 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27 19:47:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27 19:47:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27 19:47:01 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2024-05-27 19:47:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2024-05-27 19:47:01 INFO  c.e.c.CommentServiceApplication - Started CommentServiceApplication in 4.606 seconds (process running for 4.97)
+2024-05-27 19:47:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27 19:47:40 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-27 19:47:40 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-27 20:03:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27 20:03:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-27 20:03:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-27 20:03:15 INFO  c.e.c.CommentServiceApplication - Starting CommentServiceApplication using Java 21.0.2 with PID 1036 (C:\Users\boby\Documents\All materials\java\spring\project_kuliah\comment_service\target\classes started by boby in C:\Users\boby\Documents\All materials\java\spring\project_kuliah\comment_service)
+2024-05-27 20:03:15 INFO  c.e.c.CommentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 20:03:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27 20:03:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-05-27 20:03:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 7000 (http)
+2024-05-27 20:03:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7000"]
+2024-05-27 20:03:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-27 20:03:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-27 20:03:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-27 20:03:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+2024-05-27 20:03:16 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27 20:03:16 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-27 20:03:17 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-27 20:03:17 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27 20:03:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-27 20:03:17 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c11332b
+2024-05-27 20:03:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-27 20:03:18 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27 20:03:18 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27 20:03:18 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27 20:03:19 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7000"]
+2024-05-27 20:03:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 7000 (http) with context path '/'
+2024-05-27 20:03:19 INFO  c.e.c.CommentServiceApplication - Started CommentServiceApplication in 4.68 seconds (process running for 5.106)
+2024-05-27 20:03:32 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27 20:03:32 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-27 20:03:32 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
