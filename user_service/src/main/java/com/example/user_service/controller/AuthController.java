@@ -26,7 +26,22 @@ public class AuthController {
     @Autowired
     UserService userService;
 
-    
+    @GetMapping("/all")
+    public ResponseEntity<Iterable<User>> getAllUsers(){
+        try{
+            
+            
+            
+            return ResponseEntity.ok(userService.getAllUsers());
+                
+           
+            
+        }catch(Error e){
+        
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
+        }
+        
+    }
 
     @GetMapping
     public ResponseEntity<User> getUser(@RequestParam(name="email", required=false) String email, @RequestParam(name="id", required=false) Long id){

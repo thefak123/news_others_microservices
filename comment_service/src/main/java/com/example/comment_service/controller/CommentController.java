@@ -47,6 +47,27 @@ public class CommentController {
         
     }
 
+    @GetMapping("/all")
+    public ResponseEntity<Response<Iterable<Comment>>> getAllComments(){
+        Response<Iterable<Comment>> response = new Response<>();
+        try {
+            
+            response.setData(commentService.getAllComments());
+            response.setMessage("Get All Comments");
+            response.setSuccess(true);
+            return ResponseEntity.ok(response);
+            
+            
+        }catch(Error e){
+            log.error(e.getMessage(), e);
+            response.setData(null);
+            response.setMessage(e.getMessage());
+            response.setSuccess(false);
+            return ResponseEntity.status(500).body(response);
+        }
+        
+    }
+
     @PostMapping
     public ResponseEntity<Response<Comment>> createComment(@RequestBody Comment comment){
         Response<Comment> response = new Response<>();

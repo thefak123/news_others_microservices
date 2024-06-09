@@ -1,6 +1,7 @@
 package com.example.user_service.service;
 
 import java.util.HashMap;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -24,7 +25,12 @@ public class UserService  {
     @Autowired
     private  UserRepository userRepository;
 
-  
+    
+    public Iterable<User> getAllUsers()  {
+        // TODO Auto-generated method stub
+        return userRepository.findAll();
+        
+    }
 
     // @Autowired
     // private JWTService jwtService;

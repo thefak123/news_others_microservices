@@ -32,4 +32,7 @@ public class Comment{
     
     @Transient
     User user;
+
+    @Transient
+    News news;
 }
