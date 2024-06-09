@@ -19,6 +19,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.example.api_gateway_news_app.model.Comment;
+import com.example.api_gateway_news_app.model.CommentCustom;
 import com.example.api_gateway_news_app.model.News;
 import com.example.api_gateway_news_app.model.Response;
 import com.example.api_gateway_news_app.model.User;
@@ -97,6 +98,46 @@ public class CommentProxy {
             return ResponseEntity.status(503).body(r);
         }catch(Error e){
             Response<Comment> r =  new Response<>();
+            r.setSuccess(false);
+            r.setMessage("SERVER ERROR");
+            
+            return ResponseEntity.status(500).body(r);
+        }
+        
+    }
+
+    public ResponseEntity<Response<List<CommentCustom>>> getAllComments(){
+        // Set headers if necessary
+        HttpHeaders httpHeaders = new HttpHeaders();
+ 
+
+        // Create the HttpEntity with headers
+        HttpEntity<String> httpEntity = new HttpEntity<>(null, httpHeaders);
+
+        // Build the URI with parameters
+        String url = "http://localhost:7000/v1/comments/all";
+        
+
+
+
+        // Make the request and get the response
+        
+        try{
+            ResponseEntity<Response<List<CommentCustom>>> responseEntity = restTemplate.exchange(
+                url,
+                HttpMethod.GET,
+                httpEntity,
+                new ParameterizedTypeReference<Response<List<CommentCustom>>>() {});
+            log.info(responseEntity.getBody().toString());
+            return ResponseEntity.ok(responseEntity.getBody());
+        }catch(ResourceAccessException e){
+            Response<List<CommentCustom>> r =  new Response<>();
+            r.setSuccess(false);
+            r.setMessage("SERVER ERROR");
+            
+            return ResponseEntity.status(503).body(r);
+        }catch(Error e){
+            Response<List<CommentCustom>> r =  new Response<>();
             r.setSuccess(false);
             r.setMessage("SERVER ERROR");
             

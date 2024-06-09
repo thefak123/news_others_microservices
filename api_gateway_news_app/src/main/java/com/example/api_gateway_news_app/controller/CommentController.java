@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.api_gateway_news_app.model.Comment;
+import com.example.api_gateway_news_app.model.CommentCustom;
 import com.example.api_gateway_news_app.model.Response;
 import com.example.api_gateway_news_app.proxy.CommentProxy;
 
@@ -45,6 +46,20 @@ public class CommentController {
             return commentProxy.createComment(comment);
         }catch(Error e){
             Response<Comment> response = new Response<>();
+            response.setData(null);
+            response.setMessage(e.getMessage());
+            response.setSuccess(false);
+            return ResponseEntity.status(500).body(response);
+        }
+        
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<Response<List<CommentCustom>>> getAllComments() {
+        try{
+            return commentProxy.getAllComments();
+        }catch(Error e){
+            Response<List<CommentCustom>> response = new Response<>();
             response.setData(null);
             response.setMessage(e.getMessage());
             response.setSuccess(false);

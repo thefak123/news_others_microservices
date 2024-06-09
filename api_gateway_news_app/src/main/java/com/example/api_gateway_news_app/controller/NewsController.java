@@ -42,5 +42,7 @@ public class NewsController {
     
         return newsProxy.getNewsById(id);
     }
+
+    
     
 }
